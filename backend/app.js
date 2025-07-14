@@ -12,7 +12,7 @@ console.log("app.js is running");
 
 // Root route
 app.get('/', (req, res) => {
-  res.send('API is running 🚀');
+  res.send('API is running successfully');
 });
 
 // MongoDB connection
